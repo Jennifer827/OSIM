@@ -11,6 +11,10 @@ wget https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yo
 
 ## Evaluation
 
+```
+python3 tools/OSIM.py image -n yolox-x -c ./yolox_x.pth --ref_path [ref image or directory] --test_path [test image or directory] --model_name [reconstruction model name] --dataset [dataset name] --data [data name] --conf 0.50 --nms 0.45 --tsize 640 --save_result --device gpu
+```
+
 ## Acknowledgement
 
 In this study, we utilized the YOLOX code. We sincerely thank the developers for sharing the code.

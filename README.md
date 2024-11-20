@@ -9,9 +9,13 @@ pip install -v -e .
 wget https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_x.pth
 ```
 
-## Cite YOLOX
+## Evaluation
 
-In this study, we utilized the YOLOX code. We sincerely thank the developers for their contribution.
+## Acknowledgement
+
+In this study, we utilized the YOLOX code. We sincerely thank the developers for sharing the code.
+
+https://github.com/Megvii-BaseDetection/YOLOX
 
 ```latex
  @article{yolox2021,
